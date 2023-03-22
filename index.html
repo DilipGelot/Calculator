@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="calculator">
+            <div>
+                G D
+            </div>
+            <div class="display">
+              <input type="text" id="result" readonly>
+            </div>
+            <div class="button-row">
+              <button class="green" onclick="clearResult()">C</button>
+              <button class="del" onclick="deleteLast()">DEL </button>
+              <button class="opre" onclick="addToResult('/')">/</button>
+              <button class="opre" onclick="addToResult('*')">*</button>
+            </div>
+            <div class="button-row">
+              <button onclick="addToResult('7')">7</button>
+              <button onclick="addToResult('8')">8</button>
+              <button onclick="addToResult('9')">9</button>
+              <button class="opre" onclick="addToResult('-')">-</button>
+            </div>
+            <div class="button-row">
+              <button onclick="addToResult('4')">4</button>
+              <button onclick="addToResult('5')">5</button>
+              <button onclick="addToResult('6')">6</button>
+              <button class="opre" onclick="addToResult('+')">+</button>
+            </div>
+            <div class="button-row">
+              <button onclick="addToResult('1')">1</button>
+              <button onclick="addToResult('2')">2</button>
+              <button onclick="addToResult('3')">3</button>
+              <button class="green" onclick="calculateResult()">=</button>
+            </div>
+            <div class="button-row">
+              <button onclick="addToResult('0')">0</button>
+              <button onclick="addToResult('.')">.</button>
+            </div>
+          </div>
+          <footer class="name-teg">Developed by 🤍 Dilip Gelot</footer>
+    </center>
+  <script src="script.js"></script>
+</body>
+</html>

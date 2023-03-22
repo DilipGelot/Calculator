@@ -1,0 +1,92 @@
+body{
+        background: linear-gradient(270deg, #60b1e8, #b710f5);
+        background-size: 600% 600%;
+    
+        -webkit-animation: AnimationName 12s ease infinite;
+        -moz-animation: AnimationName 12s ease infinite;
+        -o-animation: AnimationName 12s ease infinite;
+        animation: AnimationName 12s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:17% 0%}
+        50%{background-position:84% 100%}
+        100%{background-position:17% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:17% 0%}
+        50%{background-position:84% 100%}
+        100%{background-position:17% 0%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:17% 0%}
+        50%{background-position:84% 100%}
+        100%{background-position:17% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:17% 0%}
+        50%{background-position:84% 100%}
+        100%{background-position:17% 0%}
+    }
+.calculator {
+    display: inline-block;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    margin-top: 15%;
+    background-color: white;
+  }
+  
+  .display {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 24px;
+    padding: 5px;
+    background-color: #bef1bf;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  .green{
+    background-color: rgb(136, 242, 136);
+  }
+
+  .green:hover{
+    background-color: rgb(4, 170, 4) !important;
+  }
+
+  .del{
+    background-color: rgb(251, 98, 98);
+  }
+
+  .del:hover{
+    background-color: rgb(247, 29, 29) !important;
+  }
+
+  .opre{
+    background-color: rgb(248, 184, 65);
+  }
+  
+  .opre:hover{
+    background-color: rgb(255, 166, 0) !important;
+  }
+  .name-teg{
+    margin-top: 10%;
+  }
